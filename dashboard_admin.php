@@ -82,8 +82,8 @@ if (isset($_POST['search'])) {
                     <td><span class="badge-year"><?php echo $row['angkatan']; ?></span></td>
                     <td><?php echo $row['jurusan']; ?></td>
                     <td class="actions">
-                        <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn-edit">Edit</a>
-                        <a href="delete.php?id=<?php echo $row['id']; ?>" 
+                        <a href="edit.php?id=<?php echo $row['id_alumni']; ?>" class="btn-edit">Edit</a>
+                        <a href="delete.php?id=<?php echo $row['id_alumni']; ?>" 
                            class="btn-delete" 
                            onclick="return confirm('Apakah yakin ingin hapus data ini?')">Hapus</a>
                     </td>
@@ -102,7 +102,7 @@ if (isset($_POST['search'])) {
         </main>
 
         <footer class="main-footer">
-            <p>&copy; 2026 Khoirun Nisya</p>
+            <p>&copy; 2026 Naila Naifasyah</p>
             
         </footer>
     </div>
